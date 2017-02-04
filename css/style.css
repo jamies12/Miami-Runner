@@ -1,0 +1,170 @@
+body{
+  /*background-color: black;*/
+  background-image: url('http://orig10.deviantart.net/48c0/f/2016/204/4/b/retrowave_80_s_bg_by_rafael_de_jongh-d9wsq5j.png');
+  background-repeat: no-repeat;
+  font-family: 'Audiowide', cursive;
+}
+.gameSpace {
+  height: 500px;
+  width: 900px;
+  border-style: solid;
+  border-radius: 4px;
+  margin-left: 5%;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+}
+.backGround {
+  height: 500px;
+  width: 900px;
+  background-image: url('https://i.imgur.com/2ovRdOy.png');
+  background-repeat: repeat;
+  border-style: none;
+  position: inherit;
+  top: 0px;
+  z-index: -2;
+}
+.road{
+  height: 150px;
+  width: 900px;
+  background-image: url('https://i.imgur.com/y5awqjK.png');
+  background-repeat: repeat;
+  border-style: none;
+  position: inherit;
+  top: 350px;
+  background-color: grey;
+  z-index: -1;
+}
+.titleCard {
+  height: 200px;
+  width: 300px;
+  font-size: 30px;
+  position: inherit;
+  left: 335px;
+  top: 100px;
+}
+.player {
+  height: 60px;
+  width: 38px;
+  border-radius: 8px;
+  background-image: url('https://i.imgur.com/6NqPabN.png');
+  background-position: 0px 70px ;
+  position: inherit;
+  top: 340px;
+  left: 110px;
+}
+
+button {
+  position: absolute;
+  font-family: 'Audiowide', cursive;
+  background-color: #e742d3;
+  border-radius: 15px;
+  border-style: hidden;
+  top: 360px;
+  left: 530px;
+  z-index: 2;
+}
+.startGameEasy{
+  position: absolute;
+  background-color: #24a5d4;
+  font-family: 'Audiowide', cursive;
+  border-radius: 15px;
+  border-style: hidden;
+  top: 320px;
+  left: 500px;
+  z-index: 2;
+}
+.startGameHard{
+  position: absolute;
+  font-family: 'Audiowide', cursive;
+  background-color: #d42489;
+  border-radius: 15px;
+  border-style: hidden;
+  top: 360px;
+  left: 500px;
+  z-index: 2;
+}
+.healthPickUp{
+  height: 40px;
+  width: 40px;
+  background-image: url('https://i.imgur.com/lCBASYt.png');
+  background-position: 0 0;
+  border-radius: 20px;
+  position: inherit;
+  top: 330px;
+  left: 860px;
+}
+.obstacle {
+  height: 50px;
+  width: 40px;
+  background-image: url('https://i.imgur.com/lCBASYt.png');
+  background-position: 140px 50px;
+  border-radius: 5px;
+  position: inherit;
+  top: 370px;
+  left: 850px;
+}
+.lowObstacle {
+  height: 30px;
+  width: 50px;
+  background-image: url('https://i.imgur.com/lCBASYt.png');
+  border-radius: 5px;
+  background-position: 0px -40px ;
+  position: inherit;
+  top: 380px;
+  left: 860px;
+}
+.highObstacle {
+  height: 50px;
+  width: 60px;
+  background-image: url('https://i.imgur.com/lCBASYt.png');
+  border-radius: 5px;
+  background-position: 100px 50px;
+  position: inherit;
+  top: 310px;
+  left: 860px;
+}
+.airObstacle {
+  height: 30px;
+  width: 50px;
+  background-image: url('https://i.imgur.com/lCBASYt.png');
+  background-position: 50px -40px ;
+  border-radius: 5px;
+  position: inherit;
+  top: 175px;
+  left: 860px;
+}
+.status {
+  position: absolute;
+  top: 200px;
+}
+.score {
+  height: 30px;
+  width: 200px;
+  color: white;
+  position: inherit;
+  top: 80px;
+  left: 685px;
+}
+.highScore {
+  height: 30px;
+  width: 200px;
+  color: #46cce8;
+  position: absolute;
+  top: 320px;
+  left: 480px;
+}
+.lifeScore {
+  height: 30px;
+  width: 120px;
+  color: #12e20b;
+  position: inherit;
+  top: 80px;
+  left: 90px;
+}
+.controls {
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
