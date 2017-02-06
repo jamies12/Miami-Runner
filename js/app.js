@@ -47,8 +47,8 @@ $(function() {
     var $obstacleUp = $('.highObstacle');
     var $obstacleLow = $('.lowObstacle');
     var $obstacleAir = $('.airObstacle');
-    var $status = $('.status');
-    var animationDuration = Math.floor(Math.random()*1000) + 1000;
+    // var $status = $('.status');
+    // var animationDuration = Math.floor(Math.random()*1000) + 1000;
     var $playerScore = $('.score');
     var $scoreCounter = 0;
     var $jumpCount = 0;
@@ -395,7 +395,6 @@ $(function() {
 
     function checkAlive() {
       if ($lifeAmount > 1) {
-      } else {
         $playSpace.fadeOut('slow');
         clearInterval($scoreIncrease);
         $restartButton.show('slow');
@@ -416,8 +415,8 @@ $(function() {
     var $obstacleUp = $('.highObstacle');
     var $obstacleLow = $('.lowObstacle');
     var $obstacleAir = $('.airObstacle');
-    var $status = $('.status');
-    var animationDuration = Math.floor(Math.random()*1000) + 1000;
+    // var $status = $('.status');
+    // var animationDuration = Math.floor(Math.random()*1000) + 1000;
     var $playerScore = $('.score');
     var $scoreCounter = 0;
     var $jumpCount = 0;
@@ -625,16 +624,16 @@ $(function() {
       // different character css styles for different actions
 
 
-    function slideStyle() {
-        $($character).css({height: 30,
-          width: 50
-        });
-    }
-    function standStyle() {
-      $($character).css({height: '60px',
-        width: '38px'
-      });
-    }
+    // function slideStyle() {
+    //     $($character).css({height: 30,
+    //       width: 50
+    //     });
+    // }
+    // function standStyle() {
+    //   $($character).css({height: '60px',
+    //     width: '38px'
+    //   });
+    // }
 
       // collision detection
       //
@@ -757,7 +756,6 @@ $(function() {
 
     function checkAlive() {
       if ($lifeAmount > 1) {
-      } else {
         $playSpace.fadeOut('slow');
         clearInterval($scoreIncrease);
         $restartButton.show('slow');
